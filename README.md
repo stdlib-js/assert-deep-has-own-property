@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.deepHasOwnProp;
+})();
 })();
 </script>
 ```
@@ -237,6 +239,7 @@ var bool = has( obj );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool;
 var has;
@@ -274,6 +277,7 @@ bool = has( { 'a': { 'b': { 'c': 'd' } } } );
 bool = has( { 'a': [ { 'b': { 'c': 'd' } } ] } );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -373,15 +377,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/deep-has-property]: https://github.com/stdlib-js/assert-deep-has-property/tree/umd
+[@stdlib/assert/deep-has-property]: https://github.com/stdlib-js/assert-deep-has-property/tree/umd/tree/umd
 
-[@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert-has-own-property/tree/umd
+[@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert-has-own-property/tree/umd/tree/umd
 
-[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get/tree/umd
+[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get/tree/umd/tree/umd
 
-[@stdlib/utils/deep-pluck]: https://github.com/stdlib-js/utils-deep-pluck/tree/umd
+[@stdlib/utils/deep-pluck]: https://github.com/stdlib-js/utils-deep-pluck/tree/umd/tree/umd
 
-[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set/tree/umd
+[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
