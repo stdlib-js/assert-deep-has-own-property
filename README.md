@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-deep-has-own-property/tags). For example,
+
+```javascript
 import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@v0.1.0-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@deno/mod.js';
 ```
 
 #### deepHasOwnProp( value, path\[, options] )
@@ -224,7 +229,7 @@ var bool = has( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@v0.1.0-deno/mod.js';
+import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@deno/mod.js';
 
 var bool = deepHasOwnProp( { 'a': { 'b': { 'c': 'd' } } }, 'a.b.c' );
 // returns true
