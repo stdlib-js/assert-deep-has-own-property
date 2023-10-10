@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@esm/index.mjs';
+import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@v0.1.1-esm/index.mjs';
 ```
 
 #### deepHasOwnProp( value, path\[, options] )
@@ -229,7 +229,7 @@ var bool = has( obj );
 <body>
 <script type="module">
 
-import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@esm/index.mjs';
+import deepHasOwnProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-own-property@v0.1.1-esm/index.mjs';
 
 var bool = deepHasOwnProp( { 'a': { 'b': { 'c': 'd' } } }, 'a.b.c' );
 // returns true
