@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-04)
+## Unreleased (2025-12-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`41545b2`](https://github.com/stdlib-js/stdlib/commit/41545b2e95820b2a161f2ab0da229d3cb2206c91) - **style:** add missing space _(by Philipp Burckhardt)_
 -   [`299f5be`](https://github.com/stdlib-js/stdlib/commit/299f5be0502de56c91cab0204b8a9f4a51c07af4) - **bench:** refactor to use string interpolation in `assert/deep-has-own-property` [(#8747)](https://github.com/stdlib-js/stdlib/pull/8747) _(by Rohit R Bhat)_
 -   [`6ec2903`](https://github.com/stdlib-js/stdlib/commit/6ec29030b57eb6fc493561082e211d44608739be) - **docs:** fix description _(by Philipp Burckhardt)_
 -   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
