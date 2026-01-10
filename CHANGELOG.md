@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-05)
+## Unreleased (2026-01-10)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`dfee33b`](https://github.com/stdlib-js/stdlib/commit/dfee33b1f8c6ae3b28465f81a0dafbd50366f9f0) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`41545b2`](https://github.com/stdlib-js/stdlib/commit/41545b2e95820b2a161f2ab0da229d3cb2206c91) - **style:** add missing space _(by Philipp Burckhardt)_
 -   [`299f5be`](https://github.com/stdlib-js/stdlib/commit/299f5be0502de56c91cab0204b8a9f4a51c07af4) - **bench:** refactor to use string interpolation in `assert/deep-has-own-property` [(#8747)](https://github.com/stdlib-js/stdlib/pull/8747) _(by Rohit R Bhat)_
 -   [`6ec2903`](https://github.com/stdlib-js/stdlib/commit/6ec29030b57eb6fc493561082e211d44608739be) - **docs:** fix description _(by Philipp Burckhardt)_
@@ -29,8 +30,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   Rohit R Bhat
 

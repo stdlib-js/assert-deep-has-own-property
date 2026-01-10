@@ -286,7 +286,7 @@ bool = has( { 'a': [ { 'b': { 'c': 'd' } } ] } );
 
 -   <span class="package-name">[`@stdlib/assert-deep-has-property`][@stdlib/assert/deep-has-property]</span><span class="delimiter">: </span><span class="description">test whether an object contains a nested key path, either own or inherited.</span>
 -   <span class="package-name">[`@stdlib/assert-has-own-property`][@stdlib/assert/has-own-property]</span><span class="delimiter">: </span><span class="description">test if an object has a specified property.</span>
--   <span class="package-name">[`@stdlib/utils-deep-get`][@stdlib/utils/deep-get]</span><span class="delimiter">: </span><span class="description">get a nested property value.</span>
+-   <span class="package-name">[`@stdlib/object-deep-get`][@stdlib/object/deep-get]</span><span class="delimiter">: </span><span class="description">get a nested property value.</span>
 -   <span class="package-name">[`@stdlib/utils-deep-pluck`][@stdlib/utils/deep-pluck]</span><span class="delimiter">: </span><span class="description">extract a nested property value from each element of an object array.</span>
 -   <span class="package-name">[`@stdlib/utils-deep-set`][@stdlib/utils/deep-set]</span><span class="delimiter">: </span><span class="description">set a nested property value.</span>
 
@@ -320,7 +320,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -346,8 +346,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -372,7 +372,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert-has-own-property
 
-[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get
+[@stdlib/object/deep-get]: https://github.com/stdlib-js/object-deep-get
 
 [@stdlib/utils/deep-pluck]: https://github.com/stdlib-js/utils-deep-pluck
 
