@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-10)
+## Unreleased (2026-01-14)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`fb171e3`](https://github.com/stdlib-js/stdlib/commit/fb171e313f8973bd4cd7d873f89f8b248b2cf14e) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`dfee33b`](https://github.com/stdlib-js/stdlib/commit/dfee33b1f8c6ae3b28465f81a0dafbd50366f9f0) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`41545b2`](https://github.com/stdlib-js/stdlib/commit/41545b2e95820b2a161f2ab0da229d3cb2206c91) - **style:** add missing space _(by Philipp Burckhardt)_
 -   [`299f5be`](https://github.com/stdlib-js/stdlib/commit/299f5be0502de56c91cab0204b8a9f4a51c07af4) - **bench:** refactor to use string interpolation in `assert/deep-has-own-property` [(#8747)](https://github.com/stdlib-js/stdlib/pull/8747) _(by Rohit R Bhat)_
